@@ -3,7 +3,6 @@ node{
         git 'https://github.com/bijcie12345/FarmBot-Software.git'
     }
     stage('Compile-Package'){
-        def mvnHome = tool name: '', type: 'maven'
-        sh "${mvnHome}/bin/mvn package"
+        sh 'mvn package'
     }
 }
