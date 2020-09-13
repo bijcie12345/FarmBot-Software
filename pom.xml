@@ -11,8 +11,8 @@
     <packaging>war</packaging>
     <groupId>com.farmbot</groupId>
     <artifactId>demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <version>0.1</version>
+    <name>FarmBot</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -65,7 +65,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <finalName>FarmBot</finalName>
     </build>
 
 </project>
