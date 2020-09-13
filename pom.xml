@@ -65,6 +65,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>FarmBot</finalName>
     </build>
 
 </project>
